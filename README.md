@@ -1,4 +1,4 @@
-NEW GAME:
+# NEW GAME:
 
 # Quiet Time Game
 
@@ -39,6 +39,7 @@ NEW GAME:
    ```bash
    pip install pygame sounddevice numpy
 
+# OLD GAMES:
 
 1. Number Guessing Game
 How to Play:
