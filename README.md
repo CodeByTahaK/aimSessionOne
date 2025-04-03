@@ -1,3 +1,45 @@
+NEW GAME:
+
+# Quiet Time Game
+
+**Quiet Time Game** is a fun and interactive game designed to encourage kids to maintain low noise levels during study time in a classroom setting. The game uses microphone input to measure noise levels and provides visual and motivational feedback to help students stay quiet.
+
+## Features
+
+- **Noise Level Detection**: Uses a microphone to detect the current noise level in the room.
+- **Visual Feedback**: Displays a noise meter (color bar) to represent the current noise level:
+  - Green: Quiet
+  - Orange: Moderate noise
+  - Red: Loud noise
+- **Score System**:
+  - Rewards points for maintaining silence.
+  - Deducts points for moderate or loud noise.
+- **Motivational Messages**: Displays encouraging messages periodically to keep students engaged.
+- **Timer**: Tracks the session duration and displays the remaining time.
+- **Rewards**: Provides rewards (e.g., stars) for maintaining silence for extended periods.
+- **Customizable Settings**:
+  - Adjustable thresholds for quiet and loud noise levels.
+  - Session duration can be set by the teacher.
+
+## How It Works
+
+1. The game listens to the microphone input and calculates the noise level.
+2. Based on the noise level:
+   - If the noise is below the quiet threshold, the score increases.
+   - If the noise is moderate, the score decreases slightly.
+   - If the noise is loud, the score decreases significantly, and a warning message is displayed.
+3. A noise meter at the bottom of the screen provides real-time visual feedback.
+4. Motivational messages are displayed every 30 seconds to encourage students.
+5. The game ends when the session timer runs out.
+
+## Installation
+
+1. Clone this repository or download the source code.
+2. Install the required Python libraries:
+   ```bash
+   pip install pygame sounddevice numpy
+
+
 1. Number Guessing Game
 How to Play:
 The game generates a secret number between 1 and 100.
